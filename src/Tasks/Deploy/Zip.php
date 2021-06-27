@@ -52,8 +52,8 @@ class Zip extends Base implements TaskInterface
 
 		// Process the files to zip
 		foreach (new \RecursiveIteratorIterator(
-			new \RecursiveDirectoryIterator($this->getBuildFolder()), \RecursiveIteratorIterator::SELF_FIRST
-		)
+					new \RecursiveDirectoryIterator($this->getBuildFolder()), \RecursiveIteratorIterator::SELF_FIRST
+					)
 					as $subfolder
 				)
 		{

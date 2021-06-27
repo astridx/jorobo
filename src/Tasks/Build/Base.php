@@ -52,7 +52,7 @@ class Base extends JTask implements TaskInterface
 	/**
 	 * Api files
 	 *
-	 * They need to be static in order to support multiple files
+	 * They need to be static in order to support multiple files and LANGUAGE
 	 *
 	 * @var    array
 	 *
@@ -210,7 +210,7 @@ class Base extends JTask implements TaskInterface
 	/**
 	 * Adds Files / Folders to media array
 	 *
-	 * @param   array  $fileArray  Array of files / folders
+	 * @param   array $fileArray Array of files / folders
 	 *
 	 * @return  void
 	 *
